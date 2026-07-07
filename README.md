@@ -9,7 +9,22 @@ returns an annotated image. It can also publish detected center points to a ROS 
 
 ## Usage
 
+Create a python virtual environment and install dependencies
+```
+python3 -m venv ./.venv
+source ./.venv/bin/activate
+cd /path/to/edi_socket_detection/
+pip3 install -r requirements.txt
+```
+
+Then run the script with
+```
+cd src/
+python3 detect_bed.py
+```
+
 ## Notes
-- Place any custom model weights into `assets/` and adjust the notebook or `--model` argument when running the script.
+- Place any custom model weights into `assets/` and adjust the model path when running the script.
+- The script works with a RealSense depth camera connected to the device
 
 For more information on the AI Toolbox concept and tooling, see https://github.com/aims50toolbox/aitoolbox
