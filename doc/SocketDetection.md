@@ -2,6 +2,8 @@
 
 This technology detects the center position of sockets on a moving conveyor belt and classifies each socket as either filled or empty.
 
+![Socket detection example](socket_detection.png)
+
 ## Tool description
 
 The Socket Detection model is based on the YOLOv8m neural network. The training dataset consisted of 252 images, extracted from video footage recorded using an Intel RealSense D435 depth camera, positioned approximately 80 cm above the conveyor belt at a 10–15° tilt. Images were resized to 320×320 pixels, and manual labelling was performed to distinguish between empty sockets and those containing bottles — a necessary step due to the high visual similarity between the white conveyor belt and the white bottles.  
