@@ -25,6 +25,6 @@ python3 detect_bed.py
 
 ## Notes
 - Place any custom model weights into `assets/` and adjust the model path when running the script.
-- The script works with a RealSense depth camera connected to the device
+- The script works with a RealSense depth camera connected to the device.
 
 For more information on the AI Toolbox concept and tooling, see https://github.com/aims50toolbox/aitoolbox

@@ -1,5 +1,5 @@
 tool:
-    name: "EDI Socket Detection Service"
+    name: "EDI Socket Detection tool"
     descr: "Detect bed, socket and bottles using YOLO; returns annotated image or publishes center coordinates via ROS."
     version: 1.0.0
 deploy:
