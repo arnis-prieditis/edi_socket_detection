@@ -156,6 +156,9 @@ def pixel_to_3d_coord(pixel_x, pixel_y, intr_matrix, meters_z):
 def start_realsense():
     pipeline = rs.pipeline()
     config = rs.config()
+    # Optional: use a recorded bag file for testing
+    # config.enable_device_from_file("../assets/example_camera_stream.bag")
+    # Comment out the following 2 lines if using the recorded bag file
     config.enable_stream(rs.stream.color, CAMERA_WIDTH, CAMERA_HEIGHT, rs.format.bgr8, CAMERA_FPS)
     config.enable_stream(rs.stream.depth, CAMERA_WIDTH, CAMERA_HEIGHT, rs.format.z16, CAMERA_FPS)
     profile = pipeline.start(config)

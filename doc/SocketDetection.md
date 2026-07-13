@@ -1,7 +1,6 @@
 # Socket Detection
 
-This technology detects the center position of sockets (see Figure below) on a moving conveyor belt and classifies each socket as either filled or empty.  
-The GitHub repo for this tool is available [here](https://github.com/arnis-prieditis/edi_socket_detection).
+This technology detects the center position of sockets on a moving conveyor belt and classifies each socket as either filled or empty.
 
 ## Tool description
 

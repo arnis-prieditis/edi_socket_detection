@@ -1,6 +1,6 @@
 # EDI Socket Detection Tool for AIMS 5.0 AI Toolbox
 
-This tool detects `bed`, `socket` and `bottle` classes in input RGB images using a YOLO model and
+This tool detects `bed`, `socket` and `bottle` classes in input RGB images using a YOLOv8m model and
 returns an annotated image. It can also publish detected center points to a ROS topic.
 
 ## Assets
@@ -25,6 +25,6 @@ python3 detect_bed.py
 
 ## Notes
 - Place any custom model weights into `assets/` and adjust the model path when running the script.
-- The script works with a RealSense depth camera connected to the device.
+- The script works with a RealSense depth camera connected to the device. An example RealSense recording can be downloaded [here](https://mega.nz/folder/fVMDiBRI#YSjy0ooC4NSLbrYWLpk2YA). To use it, see the comments in detect_bed.py function start_realsense().
 
 For more information on the AI Toolbox concept and tooling, see https://github.com/aims50toolbox/aitoolbox
